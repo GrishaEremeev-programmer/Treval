@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f1ea;
+    color:black;
+}
+header{
+    padding: 20px; 
+    background:rgba(2, 24, 10, 0.732);
+    color: white;
+    font-size: 24px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap ;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+    border:2px white solid;
+    border-radius: 10px;
+    font-size: 24px;
+}
+a:hover{
+    background: white;
+    color:rgba(2, 24, 10, 0.732);
+}
+header h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.hero{
+    border-radius: 24px;
+    margin: 20px;
+    background: white;
+    padding: 14px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text{
+    margin: 80px 424px;
+    font-size: 28px;
+    padding-top:54px ;
+}
+
+.pich{
+    max-width: 400px;
+    height: auto;
+    margin: 80px 424px;
+    padding-bottom:44px ;
+}
+.mest{
+    border-radius: 24px;
+    margin: 20px;
+    background: white;
+    padding: 14px;
+    font-size: 20px;
+}
+.card{
+    background-color: #fbf9ef;
+    max-width: 260px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.pe{
+    width: 100%;
+    border-radius: 12px;
+}
+.popmest{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sovet{
+    border-radius: 24px;
+    margin: 20px;
+    background: white;
+    padding: 14px;
+    font-size: 20px;
+}
+.stolb{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.oren{
+    background-color: rgb(246, 231, 205);
+    border-left:orange solid 5px;
+    border-radius: 14px;
+    margin: 14px;padding: 20px;
+    font-size: 20px;
+}
+.gal{
+    border-radius: 24px;
+    margin: 20px;
+    background: white;
+    padding: 14px;
+    font-size: 20px; 
+}
+.gel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.con{
+    width: 260px;
+    border-radius: 16px;
+}
+footer{
+    margin-top: 30px;
+    padding: 24px;
+    background:rgba(2, 24, 10, 0.732);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+
